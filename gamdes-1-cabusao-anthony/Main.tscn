@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://vbr2huojjjra"]
+
+[node name="Main" type="Node2D" unique_id=1014343533]
+
+[node name="Label" type="Label" parent="." unique_id=1954967665]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Player" type="Sprite2D" parent="." unique_id=1228110963]
+
+[node name="Camera" type="Camera2D" parent="Player" unique_id=1792346851]
