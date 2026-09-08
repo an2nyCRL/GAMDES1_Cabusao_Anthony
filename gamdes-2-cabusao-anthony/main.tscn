@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://vbr2huojjjra"]
+
+[ext_resource type="Script" uid="uid://b74nyjbvk3qrc" path="res://score_label.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D" unique_id=2111079470]
+
+[node name="ScoreLabel" type="Label" parent="." unique_id=1396212425]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Helo Gudot"
+script = ExtResource("1_ig7tw")
+
+[node name="Player" type="Sprite2D" parent="." unique_id=991560932]
+
+[node name="Camera" type="Camera2D" parent="Player" unique_id=1967954655]
